@@ -1,0 +1,299 @@
+body{
+    scroll-behavior: smooth;
+    margin: 0;
+
+}
+.body-wrapper{
+    max-width: 1920px;
+    width: 100%;
+    
+}
+#telefon {
+    position: absolute;
+    left: 730px;
+    top: 140px;
+}
+nav {
+    display: flex;
+	justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    position: absolute;
+    width: 601px;
+    height: 120px;
+    left: 659px;
+    top: 0;
+}
+
+nav a {
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #F7F7FA;
+    margin: 0 20px; /* Встановлення однакових відступів між посиланнями */
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-size: 1.2em; /* новый размер текста */
+}
+
+h1 {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 0.2px;
+    color: #F7F7FA;
+    text-transform: uppercase;
+}
+
+.zagolovok-shapka {
+    position: absolute;
+    height: 120px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 120px/2);
+    width: 550px;
+    height: 120px;
+    left: 205px;
+    top: 340px;
+}
+
+.title-background{
+    background-image: url("../практика\ фото/shapka.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    min-width: 1920px;
+    height: 1080px;
+}
+#tyt {
+    position: absolute;
+    width: 550px;
+    height: 56px;
+    left: 205px;
+    top: 490px;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+#about {
+position: relative;
+max-width: 1920px;
+height: 750px;
+left: 0px;
+top: 0px;
+
+
+}
+.text-about {
+/* Exodus Landing Page */
+
+position: absolute;
+width: 900px;
+height: 128px;
+left: 519px;
+top: 112px;
+text-align: center;
+
+
+}
+
+
+
+
+.frame {
+    border: 2px solid #000; /* товщина рамки та колір */
+    background-color: #fff; /* білий фон */
+    padding: 20px; /* відступ всередині рамки */
+    display: flex; /* використовуємо flexbox для розподілу на дві колонки */
+    position: absolute;
+    width: 1210px;
+    height: 340px;
+    left: 361px;
+    top: 290px;
+}
+
+
+
+.column {
+    flex: 1; /* дозволяє колонкам займати рівну ширину */
+    padding: 0 10px; /* відступи в кожній колонці */
+    align-items: center; /* Центруємо текст по вертикалі */
+    justify-content: center; /* Центруємо текст по горизонталі */
+}
+
+.column:first-child {
+    border-right: none; /* Видаляємо праву межу першої колонки */
+}
+
+.frame p {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #868686;
+}
+
+.frame h2 {
+    font-family: "Rubik", sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 59px;
+    letter-spacing: -0.42px;
+    text-align: center;
+    background-image: linear-gradient(90deg, #EC6F66 0%, #F3A183 100%);
+    -webkit-background-clip: text; /* Дозволяє застосовувати градієнт до тексту в Safari та Chrome */
+    background-clip: text; /* Дозволяє застосовувати градієнт до тексту */
+    color: transparent; /* Робить текст прозорим */
+}
+
+.frame h3 {
+    font-family: "Rubik", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.18615390360355377px;
+    text-align: center;
+    color: #222222;
+}
+
+.footer {
+    position: relative;
+    width: 1920px;
+    height: 700px;
+    left: 0px;
+    top: -31px;
+}
+
+#exodus2 {
+    position: absolute;
+    left: 10.52%;
+    right: 81.41%;
+    top: 15%;
+    bottom: 79.29%;
+}
+
+.container {
+    position: relative;
+    width: 1419px;
+    height: 340px;
+    left: 202px;
+    top: 230px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px; /* промежуток между колонками */
+}
+
+.container column {
+    background-color: #f0f0f0; /* цвет фона колонки */
+    padding: 20px; /* отступы внутри колонки */
+    border: 1px solid #ccc; /* граница колонки */
+}
+
+.column a {
+    display: block;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: #868686;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    font-style: normal;
+}
+
+.column a:hover {
+    font-size: 1.2em; /* новый размер текста */
+}
+
+.container p {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+    color: #222222;
+}
+
+.copyright {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #868686;
+    position: relative;
+    width: 310px;
+    height: 24px;
+    left: 202px;
+    top: 250px;
+}
+
+.ikonki {
+    position: relative;
+    width: 170px;
+    height: 50px;
+    top: 200px;
+    left: 1500px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.ikonki a {
+    text-decoration: none;
+}
+
+.ikonki:hover img {
+    transform: scale(1.4); /* Увеличиваем масштаб изображения на 10% при наведении */
+}
+
+.button-container {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%); /* Смещаем контейнер влево на половину его ширины */
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(90deg, #EC6F66 0%, #F3A183 100%);
+    border: none;
+    border-radius: 25px; /* Задаем круглые границы */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background: linear-gradient(90deg, #F3A183 0%, #EC6F66 100%);
+}
+    #exodus1{
+    position: relative;
+    top: 40px;
+    left: 50px;
+    gap: 0px;
+    opacity: 0px;
+
+    }
